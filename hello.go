@@ -30,7 +30,7 @@ func get(w http.ResponseWriter, r *http.Request) {
 func post(w http.ResponseWriter, r *http.Request) {
     w.Header().Set("Content-Type", "application/json")
     w.WriteHeader(http.StatusCreated)
-    w.Write([]byte(`{"message": "post called"}`))
+    w.Write([]byte(`{"message": "post clled"}`))
 }
 
 func put(w http.ResponseWriter, r *http.Request) {
